@@ -1,0 +1,7 @@
+<view class="container">
+  <view class="score">
+    <view class="scoreItem">
+      <wxstars value="{{ shopGrade }}" isClick="true" bindcompute="computeGrade" ></wxstars>
+    </view>
+  </view>
+</view>

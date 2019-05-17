@@ -1,0 +1,6 @@
+<!--pages/comments/comments.wxml-->
+<view class="container">
+  <view class="scoreItem">
+    <wxstars isClick="true"></wxstars>
+  </view>
+</view>

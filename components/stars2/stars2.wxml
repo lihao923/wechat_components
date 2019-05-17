@@ -1,0 +1,18 @@
+<view class="starsBox">
+  <view class="stars">
+    <block wx:for="{{ stars }}" wx:for-item="item" wx:key="{{ index }}">
+      <image src="/images/{{item == 0 ? 'star-bad': item }}.png" style="width:66rpx; height:66rpx; margin-right: 10rpx; position: relative;">
+        <view class="stars-left" data-index="{{ index + 0.5 }}" catchtap="selectLeft"></view>
+        <view class="stars-right" data-index="{{ index }}" catchtap="computeScore"></view>
+      </image>
+    </block>
+  </view>
+  <view wx:if="{{ isClick }}">
+    <text wx:if="{{ value == 0 }}" class="pointText"></text>
+    <text wx:elif="{{ value <= 1 && value > 0 }}" class="pointText">差</text>
+    <text wx:elif="{{ value <= 2 && value > 1 }}" class="pointText">还行</text>
+    <text wx:elif="{{ value <= 3 && value > 2 }}" class="pointText">一般</text>
+    <text wx:elif="{{ value <= 4 && value > 3  }}" class="pointText">好</text>
+    <text wx:else class="pointText">很好</text>
+  </view>
+</view>

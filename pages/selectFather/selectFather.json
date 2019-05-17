@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "wxselect": "/components/select/select"
+  },
+  "backgroundTextStyle": "light",
+  "navigationBarBackgroundColor": "#1789df",
+  "navigationBarTitleText": "blabla",
+  "navigationBarTextStyle": "white"
+}

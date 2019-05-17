@@ -1,0 +1,15 @@
+{
+  "pages": [
+    "pages/stars1Father/stars1Father",
+    "pages/stars2Father/stars2Father",
+    "pages/selectFather/selectFather"
+    
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json"
+}

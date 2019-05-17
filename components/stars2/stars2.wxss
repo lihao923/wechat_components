@@ -1,0 +1,31 @@
+.starsBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 15rpx 15rpx 10rpx 15rpx;
+  border: 1px dashed lightblue;
+}
+
+.stars-left,
+.stars-right {
+  position: absolute;
+  top: 0;
+  width: 33rpx;
+  height: 66rpx;
+  z-index: 1000;
+}
+
+.stars-left {
+  left: 0;
+}
+
+.stars-right {
+  right: 0;
+}
+
+.pointText {
+  display: inline-block;
+  width: 120rpx;
+  text-align: center;
+}

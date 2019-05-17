@@ -1,0 +1,3 @@
+<view class="container">
+  <wxselect prop-array="{{selectArray}}" class="select-box"></wxselect>
+</view>

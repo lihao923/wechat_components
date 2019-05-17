@@ -1,0 +1,55 @@
+.com-selectBox {
+  width: 191rpx;
+  font-size: 32rpx;
+  background-color: lightblue;
+  border-radius: 6rpx 6rpx 0 0;
+  text-align: center;
+}
+
+.com-sContent {
+  position: relative;
+  height: 60rpx;
+  line-height: 60rpx;
+}
+
+.com-sImg {
+  position: absolute;
+  right: 8rpx;
+  top: 14rpx;
+  width: 32rpx;
+  height: 32rpx;
+  transition: all .3s ease;
+}
+
+.com-sTxt {
+  padding-right: 26rpx;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.com-sList {
+  position: absolute;
+  max-height: 240rpx;
+  border-top: none;
+  border-radius: 0 0 6rpx 6rpx;
+  overflow: auto;
+  z-index: 3;
+}
+
+.com-sItem {
+  box-sizing: border-box;
+  padding-right: 30rpx;
+  width: 191rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  border-top: 1px solid #ccc;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  background-color: lightblue;
+}
+
+.com-sItem:first-child {
+  border-top: none;
+}

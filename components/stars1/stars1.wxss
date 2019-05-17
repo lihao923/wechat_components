@@ -1,0 +1,19 @@
+/* components/stars/stars.wxss */
+.starsBox{
+ display: flex;
+ align-items: center;
+ justify-content: flex-start;
+ padding: 10rpx 15rpx 15rpx 15rpx;
+ border: 1px dashed lightblue;
+}
+
+.stars{
+ display: flex;
+ align-items: center;
+ justify-content: flex-start;
+}
+
+.stars image{
+ width: 66rpx;
+ height: 66rpx;
+}

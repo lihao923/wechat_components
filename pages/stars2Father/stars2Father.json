@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "wxstars": "/components/stars2/stars2"
+  },
+  "navigationBarBackgroundColor": "#1789df",
+  "navigationBarTitleText": "五星评分组件2",
+  "navigationBarTextStyle": "white"
+}

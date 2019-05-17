@@ -1,0 +1,7 @@
+<view class="starsBox">
+  <view class="stars">
+    <block wx:for="{{ stars }}" wx:key="{{ index }}" wx:for-item="item">
+      <image src="/images/{{ item == 0 ? 'star-bad': item }}.png" data-index="{{ index }}" catchtap="computeScore"></image>
+    </block>
+  </view>
+</view>
